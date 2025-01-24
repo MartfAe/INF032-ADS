@@ -1,6 +1,6 @@
 # Projeto: Estação Meteorológica com Display de 7 Segmentos e Python
 
-**Dupla:** Ana Emília Lobo e Ana Luisa Santos
+**Dupla:** Ana Emília Lobo e Anna Luisa Santos
 
 ## Objetivo
 O projeto tem como finalidade criar uma estação meteorológica capaz de medir e exibir a temperatura ambiente em um display de 7 segmentos, ao mesmo tempo em que utiliza Python para registrar e visualizar as mudanças de temperatura em gráficos. Essa abordagem integra conceitos de eletrônica, programação embarcada e análise de dados.
