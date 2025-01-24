@@ -1,7 +1,7 @@
 # Checklist para o Projeto: Estação Meteorológica
 
 ## Estrutura do Projeto
-- [ ] Configurar o repositório no GitHub
+- [x] Configurar o repositório no GitHub
 - [ ] Criar estrutura básica de diretórios:
   - [ ] Código Arduino
   - [ ] Código Python
