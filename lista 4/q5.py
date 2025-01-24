@@ -1,13 +1,30 @@
-agenda = {"CPF": "", "NOME": "", "IDADE": "", "TELEFONE": ""}
 
-agenda["NOME"] = input("Digite o nome: ")
-agenda["CPF"] = input("Digite o CPF: ")
-agenda["IDADE"] = input("Digite a idade: ")
-agenda["TELEFONE"] = input("Digite o telefone: ")
 
-print("_________________________________")
-print(agenda["CPF"])
-print(agenda["NOME"])
-print(agenda["IDADE"])
-print(agenda["TELEFONE"])
-print("_________________________________")
+agenda = {"051032587-00":
+        {"nome": "Ana",
+         "idade": 22,
+         "telefone": "71 992911999",
+        },
+        "025365785-99":{
+            "nome": "João",
+            "idade": 25,
+            "telefone": "25 96575222",
+        },
+        "634056255-01":{
+            "nome": "Maria",
+            "idade": 30,
+            "telefone": "7534253148",
+        },
+        "123456789-00":{
+            "nome": "Laura",
+            "idade": 12,
+            "telefone": "25 55223244",
+        },
+        "021584377-63":{
+            "nome": "Lais",
+            "idade": 15,
+            "telefone": "75991156151",
+        }
+    }
+
+print(agenda["051032587-00"])

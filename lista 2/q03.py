@@ -1,0 +1,7 @@
+nome = str(input("Digite o nome: "))
+print('Nome:', nome)
+print('Primeira letra: ', nome[0])
+print('Última letra:', nome[-1])
+print('Até o terceiro caractere: ', nome[0:3])
+print('Quarto caractere: ', nome[3])
+print('Dois ultimos caracteres: ', nome[-2:])

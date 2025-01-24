@@ -1,2 +1,3 @@
-numInvertido = (((123 % 10)*100) + (((123//10) % 10)*10) + 123//100)
-print("Número invertido:", numInvertido)
+numOriginal = 123
+numInvertido =int(str(numOriginal)[::-1])
+print('Número original:{}\nNúmero invertido:{}'.format(numOriginal,numInvertido))

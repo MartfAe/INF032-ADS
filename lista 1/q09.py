@@ -1,4 +1,10 @@
+a = 5
+b = 10
 
-print("Perímetro:", ((10*2)+(5*2)))
-print("Área:", (10*5))
-print("Diagonal:", (((10**2)+(5**2))**0.5))
+perimetro = (2*a)+(2*b)
+area = (a*b)
+diagonal = ((a**2)+(b**2))**(1/2)
+
+print('Perímetro =', perimetro)
+print('Área =', area)
+print('Diagonal =', diagonal)

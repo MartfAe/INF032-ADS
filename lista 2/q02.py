@@ -1,0 +1,6 @@
+n1 = input('Digite um número: ')
+n2 = input('Digite outro número: ')
+n3 = input('Digite mais um número: ')
+n4 = input('Digite o último número: ')
+media = (int(n1)*1 + int(n2)*2 + int(n3)*3 + int(n4)*4) / (1+2+3+4)
+print('Média ponderada: ', media)

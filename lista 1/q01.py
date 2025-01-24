@@ -1,1 +1,1 @@
-print("O resto da divisão é:", 10 % 3)
+print('Resto da divisão =', 10%3)

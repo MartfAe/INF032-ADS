@@ -1,0 +1,6 @@
+n1=int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
+print('Dividendo:',n1)  
+print('Divisor:',n2)
+print('Quociente:',n1//n2)
+print('Resto:',n1%n2)
