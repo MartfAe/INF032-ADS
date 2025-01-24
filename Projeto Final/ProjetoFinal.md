@@ -27,6 +27,3 @@ O projeto tem como finalidade criar uma estação meteorológica capaz de medir 
 ## Possíveis Expansões
 - Adicionar um botão ao Arduino para alternar entre exibir temperatura e umidade no display.  
 - Incorporar Python para armazenar dados em um banco de dados ou arquivo CSV para análises posteriores.  
-
-## Conclusão
-O projeto combina hardware e software para criar uma solução prática e educacional. Ele demonstra como um sistema embarcado, como o Arduino, pode ser integrado a ferramentas modernas, como Python, para monitoramento e visualização de dados, destacando aplicações em automação e IoT.
