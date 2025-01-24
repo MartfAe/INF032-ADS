@@ -1,4 +1,4 @@
-# Projeto: Estação Meteorológica com Display de 7 Segmentos e Python
+# Projeto: Meteorologia com Python
 
 **Dupla:** Ana Emília Lobo e Anna Luisa Santos
 

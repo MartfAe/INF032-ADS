@@ -1,4 +1,4 @@
-# Checklist para o Projeto: Estação Meteorológica
+# Checklist para o Projeto: Meteorologia com Python
 
 ## Estrutura do Projeto
 - [x] Configurar o repositório no GitHub
