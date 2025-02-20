@@ -63,7 +63,7 @@ style.configure("TButton", font=("Arial", 12), padding=10)  # Aumenta fonte e es
 
 # Botões para exportação
 btn_exportar_excel = ttk.Button(frame, text="Exportar para Excel", command=exportar_para_excel)
-btn_exportar_excel.grid(row=5, column=0, pady=10, ipadx=10) # ipadx aumenta a largura do botão e pady aumenta a altura
+btn_exportar_excel.grid(row=5, column=0, pady=10, ipadx=10)  #ipadx aumenta a largura do botão e pady aumenta a altura
 
 btn_exportar_img = ttk.Button(frame, text="Salvar Gráfico", command=exportar_grafico)
 btn_exportar_img.grid(row=6, column=0, pady=10, ipadx=10)
@@ -72,6 +72,7 @@ btn_exportar_img.grid(row=6, column=0, pady=10, ipadx=10)
 fig, ax = plt.subplots(figsize=(10, 5))  # Aumenta o tamanho do gráfico
 canvas = FigureCanvasTkAgg(fig, master=root)
 canvas.get_tk_widget().grid(row=1, column=0, pady=10, padx=10)
+
 
 def atualizar_grafico(frame):
     """ Lê os dados do Arduino, armazena no CSV, atualiza o gráfico e a interface """
@@ -123,6 +124,7 @@ def atualizar_grafico(frame):
 
     except ValueError:
         print(f"Erro ao processar: {linha}")
+
 
 # Criar animação para atualizar o gráfico
 ani = animation.FuncAnimation(fig, atualizar_grafico, interval=10000)
